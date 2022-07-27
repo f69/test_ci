@@ -1,0 +1,11 @@
+{
+  "name": "test_ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/f69/test_ci.git",
+  "author": "f69 <f69@w>",
+  "license": "MIT",
+  "dependencies": {
+    "lcov2badge": "^0.1.2"
+  }
+}

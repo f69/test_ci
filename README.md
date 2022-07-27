@@ -1,5 +1,7 @@
 # test_ci
 
+![Coverage](./coverage_badge.svg?sanitize=true)
+
 A new Flutter project.
 
 ## Getting Started
