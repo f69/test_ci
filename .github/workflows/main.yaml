@@ -14,4 +14,5 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
-      - run: flutter --version
+          cache: true
+      - run: flutter test
