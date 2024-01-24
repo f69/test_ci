@@ -2,6 +2,8 @@
 
 ![Coverage](./coverage_badge.svg?sanitize=true)
 
+![Codecov branch](https://img.shields.io/codecov/c/github/f69/test_ci/master?token=GR8IBO7765)
+
 A new Flutter project.
 
 ## Getting Started
