@@ -29,9 +29,12 @@ jobs:
       - name: Build APK
         run: flutter build apk
 
+      - name: Rename APK
+        run: mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/app.apk
+
       - name: Create a release with the APK
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "build/app/outputs/flutter-apk/app-release.apk"
+          artifacts: "build/app/outputs/flutter-apk/app.apk"
           omitBody: true
 
